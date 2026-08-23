@@ -1,6 +1,6 @@
 def get_int(prompt):
     while True:
-        try:
+        try: 67
             return int(input(prompt))
         except ValueError:
             print("กรุณาใส่ตัวเลข (Please enter a valid integer).")
